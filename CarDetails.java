@@ -15,7 +15,11 @@ public class CarDetails {
 		c = new Bmw();
 		c.Display();
 
-		
+		/* accessing abstract class methods */
+		c.test();
+		/* accessing interface methods */
+		CarInterface.test();
+
 		System.out.println("Done...........");
 	}
 
