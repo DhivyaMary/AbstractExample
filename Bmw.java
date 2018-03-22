@@ -28,7 +28,16 @@ public class Bmw extends Car implements CarInterface {
 
 	@Override
 	public void stopCar() {
-		System.out.println("After some time Bmw car stopped");
+		System.out.println(" Bmw car stopped");
+
+	}
+
+	@Override
+	void process(String carName) {
+		System.out.println("Changing gear for   " + carName);
+		System.out.println("Hearing Song in  FM ...... Whoooohhhhuuuu");
+		System.out.println("Reached Destination by ......" + carName);
+		System.out.println(carName + " Always great car :)");
 
 	}
 

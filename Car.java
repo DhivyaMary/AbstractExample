@@ -29,4 +29,5 @@ abstract class Car {
 		System.out.println("Abstract Class main method : ");
 	}
 
+	abstract void process(String carName);
 }
