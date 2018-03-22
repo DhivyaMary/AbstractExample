@@ -7,20 +7,23 @@ public class CarDetails {
 
 		Car c;
 		c = new Maruthi();
-		c.Display();
+		c.process("Maruthi");
+		System.out.println("------##-------");
 
 		c = new Toyoto();
-		c.Display();
+		c.process("Toyoto");
+		System.out.println("------##-------");
 
 		c = new Bmw();
-		c.Display();
+		c.process("BMW");
+		System.out.println("------##-------");
 
 		/* accessing abstract class methods */
-		c.test();
+		// c.test();
 		/* accessing interface methods */
-		CarInterface.test();
+		// CarInterface.test();
 
-		System.out.println("Done...........");
+		System.out.println(" Testing Done...........");
 	}
 
 }
