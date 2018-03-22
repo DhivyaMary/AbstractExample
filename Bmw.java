@@ -34,10 +34,12 @@ public class Bmw extends Car implements CarInterface {
 
 	@Override
 	void process(String carName) {
+		startCar();
 		System.out.println("Changing gear for   " + carName);
 		System.out.println("Hearing Song in  FM ...... Whoooohhhhuuuu");
 		System.out.println("Reached Destination by ......" + carName);
 		System.out.println(carName + " Always great car :)");
+		stopCar();
 
 	}
 

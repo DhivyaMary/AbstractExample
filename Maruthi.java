@@ -21,9 +21,11 @@ public class Maruthi extends Car implements CarInterface {
 
 	@Override
 	void process(String carName) {
+		startCar();
 		System.out.println("Changing gear for  " + carName);
 		System.out.println("Hearing Song in  FM ......");
 		System.out.println("Reached Destination by ......" + carName);
+		stopCar();
 
 	}
 
